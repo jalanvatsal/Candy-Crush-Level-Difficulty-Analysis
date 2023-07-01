@@ -56,7 +56,7 @@ prod(level_difficulty$p_win)
 #Calculating the Hardest Level
 level_difficulty[level_difficulty$p_win == min(level_difficulty$p_win),]
 
-#Calculation using the Binomial Probability Distribution
+#Calculation of 2nd Question using the Binomial Probability Distribution
 dbinom(1, size = 100, prob = 0.0381)
 
 
